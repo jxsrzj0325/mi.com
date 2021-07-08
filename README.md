@@ -40,4 +40,7 @@ $ git rm --cached filenamed
 
 # 将暂存区的内容提交到本地仓库
 $ git commit -m 'msg'
+
+# 查看提交日志
+$ git log
 ```
