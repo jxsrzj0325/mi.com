@@ -43,4 +43,13 @@ $ git commit -m 'msg'
 
 # 查看提交日志
 $ git log
+
+# 恢复历史版本
+$ git reset --hard hash(前六位)
+
+# 查看帮助
+$ git --help
+
+# 恢复文件
+$ git checkout filename
 ```
