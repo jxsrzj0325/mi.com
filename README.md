@@ -53,3 +53,37 @@ $ git --help
 # 恢复文件
 $ git checkout filename
 ```
+
+
+### https://github.com/
+它是全球最大的IT开源社区 提倡编程社交
+它是全球最大的同性交友网站
+
+github 它和 git 是没有关系的
+但是它提供了免费的git仓库(public)
+github也提供了私有仓库 收费
+
+开源大法好
+非常多成功的开源项目 诞生于github
+jQuery
+Bootstarp
+Vue
+React
+Angular
+ANTD
+...
+
+2018年10月 微软收购github
+收购完成的当天宣布 私有仓库免费
+
+### Git远程仓库操作
+```bash
+# 添加远程仓库地址 并取名 origin
+$ git remote add origin https://github.com/jxsrzj0325/mi.com.git
+
+# 创建并切换到 main 分支
+$ git branch -M main
+
+# 将本地仓库推送到远程仓库
+$ git push -u origin main
+```
