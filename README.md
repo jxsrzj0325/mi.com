@@ -85,7 +85,7 @@ $ git remote add origin https://github.com/jxsrzj0325/mi.com.git
 $ git branch -M main
 
 # 将本地仓库推送到远程仓库
-$ git push -u origin main
+$ git push -u origin 分支名
 
 # 克隆远程仓库(从无到有)
 $ git clone https://github.com/jxsrzj0325/mi.com.git
