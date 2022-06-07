@@ -52,4 +52,12 @@ $ git remote add origin https://gitee.com/jxsrzj/mi.com.git
 
 # 将本地仓库推送到远程仓库
 $ git push -u origin "master"
+
+# 查看所有原源
+$ git remote 
+
+# 查看远程仓库地址
+$ git remote get-url origin
+
+
 ```
