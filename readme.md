@@ -42,3 +42,14 @@ $ git reset --hard 提交id前6位   # 恢复到指定版本
 
 $ git checkout filename  # 恢复文件
 ```
+
+### 远程仓库操作
+
+
+```bash
+# 设置远程仓库的地址
+$ git remote add origin https://gitee.com/jxsrzj/mi.com.git
+
+# 将本地仓库推送到远程仓库
+$ git push -u origin "master"
+```
